@@ -73,8 +73,10 @@ RowBasedPlacement : circuit.nodes circuit.nets circuit.pl circuit.scl
 ## 📄 Output Format
 After execution, the program generates `.dat` files, which can be visualized using `gnuplot`:
 - **`_chip.dat`** - Defines chip boundary.
+- **`_cell.dat`** - Specifies MODULE locations.
 - **`_pad.dat`** - Specifies PAD locations.
 - **`_pad_pin.dat`** - Specifies PIN locations on the PADs.
+- **`.plt`** - Gnuplot scripts for visualization.
 
 ## 🏗️ Project Structure
 ```
@@ -84,7 +86,7 @@ physical-design-homework1-parser/
 │── plt/              # Contains gnuplot scripts for visualization (ignored)
 │── dat/              # Stores generated data files such as _chip.dat, _pad.dat, and _pad_pin.dat (ignored)
 │── .gitignore        # Specifies files to ignore in version control
-│── HW1_M16131056     # Executable file for the parser (ignored)
+│── HW1_StudentID     # Executable file for the parser (ignored)
 │── Makefile          # Defines build instructions for compiling the project
 │── README.md         # This file
 
@@ -115,13 +117,21 @@ gnuplot adaptec1/adaptec1.plt
 Below are the generated plots from the `gnuplot` output:
 
 ![adaptec1](https://github.com/user-attachments/assets/2d4ffa67-2e21-47f1-b1d6-9a91f103cdc1)
+*adaptec1*
 ![adaptec2](https://github.com/user-attachments/assets/70cbdc6e-2fb9-401d-8715-5a47294a14c1)
+*adaptec2*
 ![adaptec3](https://github.com/user-attachments/assets/882e6022-5419-4444-8e7a-76bd0a07cc12)
+*adaptec3*
 ![adaptec4](https://github.com/user-attachments/assets/4f87c502-b1c2-40bb-a855-493b30a9431e)
+*adaptec4*
 ![bigblue1](https://github.com/user-attachments/assets/8bc000f5-d5ac-458f-b4ca-7bf72233c14c)
+*bigblue1*
 ![bigblue2](https://github.com/user-attachments/assets/a90f96b3-fd2d-4bb5-baa3-f6fccbc37bf7)
+*bigblue2*
 ![bigblue3](https://github.com/user-attachments/assets/ec221b17-7e30-48b6-813d-5c1ef692a834)
+*bigblue3*
 ![bigblue4](https://github.com/user-attachments/assets/a2d2f925-6ef2-4d41-9d02-b3345ccf0a07)
+*bigblue4*
 
 ## 🤝 Contribution Guide
 1. Fork this repository.
