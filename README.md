@@ -51,16 +51,16 @@ After execution, the program generates `.dat` files, which can be visualized usi
 ## 🧰 Project Structure
 ```
 📂 physical-design-homework1-parser/
-│── 📂 src/ # Source code directory (main.cpp, parser.cpp, datatype.cpp, and headers)
-│── 📂 obj/ # Compiled object files (ignored)
-│── 📂 plt/ # Gnuplot scripts for visualization (ignored in Git, automatically generated)
-│── 📂 dat/ # Stores generated data files  (ignored in Git due to large size, generated during compilation)
-│── 🖥️ HW1_StudentID # Main executable file (ignored)
-│── 📜 .gitignore # Specifies files to ignore in version control
+│── 📂 src/ # (main.cpp, parser.cpp, datatype.cpp, and headers)
+│── 📂 obj/ # (ignored)
+│── 📂 plt/ # (ignored in Git, automatically generated)
+│── 📂 dat/ # (ignored in Git due to large size, automatically generated)
+│── 🖥️ HW1_StudentID # (ignored)
+│── 📜 .gitignore
 │── 📜 README.md # This file
-│── 🔧 Makefile # Defines build instructions for compiling the project
+│── 🔧 Makefile
 
-../📂 benchmarks/ # Directory containing Bookshelf benchmark test cases (located outside the repo)
+../📂 benchmarks/ # (located outside the repo)
 
 ```
 
