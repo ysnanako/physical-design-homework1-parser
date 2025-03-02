@@ -48,7 +48,7 @@ After execution, the program generates `.dat` files, which can be visualized usi
 - **`_pad_pin.dat`** - Specifies PIN locations on the PADs.
 - **`.plt`** - Gnuplot scripts for visualization.
 
-## 🗂️ Project Structure
+## 🧰 Project Structure
 ```
 📂 physical-design-homework1-parser/
 │── 📂 src/ # Source code directory (main.cpp, parser.cpp, datatype.cpp, and headers)
