@@ -7,8 +7,6 @@ This project is part of the **National Cheng Kung University (NCKU) - VLSI/CAD G
 
 ## 📖 Table of Contents
 - [Project Overview](#project-overview)
-- [Requirements](#requirements)
-- [Installation & Execution](#installation--execution)
 - [Input Format](#input-format)
 - [Output Format](#output-format)
 - [Project Structure](#project-structure)
@@ -28,37 +26,6 @@ The **Bookshelf** format is widely used in **VLSI physical design** for storing 
 2. Generating output files:
    - `.dat` - Data files storing parsed chip layout information.
    - `.plt` - Gnuplot scripts for visualization.
-
-## 🖥️ Requirements
-This project is developed on **Linux (Ubuntu 20.04+)** and requires:
-- `g++ 6.3.0+`
-- `make`
-- `gnuplot`
-
-## 🚀 Installation & Execution
-Follow these steps to install and run the project:
-
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/ysnanako/physical-design-homework1-parser.git
-   cd physical-design-homework1-parser
-   ```
-
-2. **Compile the Code**
-   ```bash
-   make
-   ```
-
-3. **Run the Program**
-   ```bash
-   ./HW1_StudentID <circuit.aux>
-   ```
-
-4. **Visualize the Output**
-   ```bash
-   cd plt
-   gnuplot <circuit>/<circuit.plt>
-   ```
 
 ## 📂 Input Format
 This project follows the **Bookshelf** format and requires the following files:
@@ -88,10 +55,10 @@ After execution, the program generates `.dat` files, which can be visualized usi
 │── 📂 obj/ # Compiled object files (ignored)
 │── 📂 plt/ # Gnuplot scripts for visualization (ignored in Git, automatically generated)
 │── 📂 dat/ # Stores generated data files  (ignored in Git due to large size, generated during compilation)
-│── 🚀 HW1_StudentID # Main executable file (ignored)
+│── 🖥️ HW1_StudentID # Main executable file (ignored)
 │── 📜 .gitignore # Specifies files to ignore in version control
 │── 📜 README.md # This file
-│── 🏗️ Makefile # Defines build instructions for compiling the project
+│── 🔧 Makefile # Defines build instructions for compiling the project
 
 ../📂 benchmarks/ # Directory containing Bookshelf benchmark test cases (located outside the repo)
 
