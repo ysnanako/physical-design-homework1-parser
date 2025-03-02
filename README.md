@@ -117,7 +117,7 @@ gnuplot adaptec1/adaptec1.plt
 Below are the generated plots from the `gnuplot` output:
 
 <div align="center">
-    <img src="output/adaptec1.png" alt="Adaptec1 Layout" width="500">
+    <img src="![adaptec1](https://github.com/user-attachments/assets/16b69d91-e21f-4e95-b9ea-5a0fa87b043e)" alt="Adaptec1 Layout" width="500">
     <p><b>Figure 1:</b> Adaptec1 Layout</p>
 </div>
 
