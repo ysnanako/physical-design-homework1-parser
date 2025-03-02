@@ -86,7 +86,7 @@ physical-design-homework1-parser/
 │── src/              # Source code directory (main.cpp, parser.cpp, datatype.cpp, and headers)
 │── obj/              # Compiled object files from the source code (ignored)
 │── plt/              # Contains gnuplot scripts for visualization (ignored)
-│── dat/              # Stores generated data files such as _chip.dat, _pad.dat, and _pad_pin.dat (ignored)
+│── dat/              # Stores generated data files (ignored)
 │── .gitignore        # Specifies files to ignore in version control
 │── HW1_StudentID     # Executable file for the parser (ignored)
 │── Makefile          # Defines build instructions for compiling the project
@@ -116,24 +116,24 @@ gnuplot adaptec1/adaptec1.plt
 ```
 
 ## 🖼️ Generated Plots
-Below are the generated plots from the `gnuplot` output:
+Below are the generated plots from the `gnuplot` output: 
 
-![adaptec1](https://github.com/user-attachments/assets/09f5d401-fee3-46cd-b48d-7a336de86010)  
 **adaptec1**  
-![adaptec2](https://github.com/user-attachments/assets/c7ab4d4e-588e-4f27-bd2c-6dc2024882bf)  
+![adaptec1](https://github.com/user-attachments/assets/09f5d401-fee3-46cd-b48d-7a336de86010)  
 **adaptec2**  
+![adaptec2](https://github.com/user-attachments/assets/c7ab4d4e-588e-4f27-bd2c-6dc2024882bf)  
+**adaptec3** 
 ![adaptec3](https://github.com/user-attachments/assets/66b46e68-b2ce-486e-bbd8-322ecbf2d06f)  
-**adaptec3**  
-![adaptec4](https://github.com/user-attachments/assets/7477fb03-103c-4bcb-8945-2e77b7482bff)  
 **adaptec4**  
-![bigblue1](https://github.com/user-attachments/assets/91bbacfe-57e5-4794-ad7d-bb3354fb5266)  
+![adaptec4](https://github.com/user-attachments/assets/7477fb03-103c-4bcb-8945-2e77b7482bff)  
 **bigblue1**  
-![bigblue2](https://github.com/user-attachments/assets/dff18cc7-2947-4346-80b5-c173842fe564)  
+![bigblue1](https://github.com/user-attachments/assets/91bbacfe-57e5-4794-ad7d-bb3354fb5266)  
 **bigblue2**  
+![bigblue2](https://github.com/user-attachments/assets/dff18cc7-2947-4346-80b5-c173842fe564)  
+**bigblue3** 
 ![bigblue3](https://github.com/user-attachments/assets/c47068a3-3525-450c-8767-cd28a4a3579d)  
-**bigblue3**  
-![bigblue4](https://github.com/user-attachments/assets/bdddc174-ce87-406d-879b-e6d3ffda5956)  
 **bigblue4**  
+![bigblue4](https://github.com/user-attachments/assets/bdddc174-ce87-406d-879b-e6d3ffda5956)  
 
 ## 🤝 Contribution Guide
 1. Fork this repository.
