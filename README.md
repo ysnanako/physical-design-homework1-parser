@@ -27,7 +27,7 @@ The **Bookshelf** format is widely used in **VLSI physical design** for storing 
    - `.dat` - Data files storing parsed chip layout information.
    - `.plt` - Gnuplot scripts for visualization.
 
-## 📂 Input Format
+## 📄 Input Format
 This project follows the **Bookshelf** format and requires the following files:
 - **`.aux`** - Main index file pointing to `.nodes`, `.nets`, `.pl`, `.scl`, etc.
 - **`.nodes`** - Describes circuit components and their dimensions.
@@ -56,9 +56,9 @@ After execution, the program generates `.dat` files, which can be visualized usi
 │── 📂 plt/ # (ignored in Git, automatically generated)
 │── 📂 dat/ # (ignored in Git due to large size, automatically generated)
 │── 🖥️ HW1_StudentID # (ignored)
-│── 📜 .gitignore
-│── 📜 README.md # This file
 │── 🔧 Makefile
+│── 📜 README.md # This file
+│── 📜 .gitignore
 
 ../📂 benchmarks/ # (located outside the repo)
 
